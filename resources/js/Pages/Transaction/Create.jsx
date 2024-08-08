@@ -11,9 +11,9 @@ import {
     Col,
 } from 'antd';
 import { PlusOutlined, MinusCircleOutlined } from '@ant-design/icons';
-import ModalCustomer from '/Component/ModalCustomer';
-import ModalProduct from '/Component/ModalProduct';
-import Layout from '/Layouts/default';
+import ModalCustomer from '@/Component/ModalCustomer';
+import ModalProduct from '@/Component/ModalProduct';
+import Layout from '@/Layouts/default';
 
 const App = ({ customers, products, csrf_token }) => {
     const [form] = Form.useForm();
