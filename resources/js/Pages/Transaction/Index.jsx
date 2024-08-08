@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { SearchOutlined } from '@ant-design/icons';
 import { Button, Input, Space, Table, Flex } from 'antd';
 import { Link } from '@inertiajs/inertia-react';
-import Layout from '../../Layouts/default';
+import Layout from './../../Layouts/default';
 
 const App = ({ sales, grandTotal }) => {
     const data = sales;
